@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+}
+
+.calculator {
+  width: 400px;
+  background: rgb(90, 194, 255);
+}
+
+.display {
+  background: black;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.display h1 {
+  font-family: Cochin, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+button {
+  min-height: 50px;
+  font-size: 20px;
+  background: darkblue;
+  color: darkcyan;
+}
+
+.operator {
+  background: darkcyan;
+  color: lightsteelblue;
+}
