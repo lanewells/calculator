@@ -29,6 +29,11 @@ body {
   font-weight: 400;
 }
 
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 button {
   min-height: 50px;
   font-size: 20px;
@@ -39,4 +44,9 @@ button {
 .operator {
   background: darkcyan;
   color: lightsteelblue;
+}
+
+.equals.operator {
+  grid-row: 2 / 6;
+  grid-column: 4;
 }
