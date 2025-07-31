@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7e5c1;
+}
+
+.calculator {
+  min-width: 275px;
+  background: #f9c758;
+  padding: 30px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.display {
+  background: #bcbab8;
+  color: #030505;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 20px;
+}
+
+.display h1 {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 10px;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.4em;
+}
+
+button {
+  min-height: 50px;
+  font-size: 20px;
+  background: whitesmoke;
+  color: #030505;
+  border-radius: 50px;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+}
+
+.operator,
+.clear {
+  background: #d53e01;
+}
+
+.equals.operator {
+  grid-row: 2 / 6;
+  grid-column: 4;
+  background: rgb(0, 173, 173);
+  border-radius: 25px;
+}
